@@ -1,0 +1,25 @@
+.nav_top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: var(--background);
+    color: var(--foreground);
+    font-family: var(--font-sans);
+    shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.menu_side{
+    display: flex;
+    gap: 20px;
+}
+@media (max-width: 768px) {
+    .nav_top {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .menu_side {
+        flex-direction: column;
+        gap: 10px;
+        margin-top: 10px;
+    }
+}

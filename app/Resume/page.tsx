@@ -155,7 +155,8 @@ Added smooth animations and transitions to enhance user experience
         </div>
 
         {/* Contact */}
-        <div className="bg-gradient-to-r from-purple-700/20 to-pink-600/20 border border-purple-500/20 rounded-3xl p-10 text-center">
+        <div className="bg-gradient-to-r from-purple-700/20 to-pink-600/20 border
+         border-purple-500/20 rounded-3xl p-10 text-center">
           <h2 className="text-3xl font-bold mb-4">
             Let's Work Together
           </h2>
@@ -165,7 +166,7 @@ Added smooth animations and transitions to enhance user experience
           </p>
 
           <a
-            href="mailto:yourmail@gmail.com"
+            href="mailto:singhrekha5704@gmail.com"
             className="bg-purple-600 hover:bg-purple-700 px-8 py-3 rounded-xl inline-block transition"
           >
             Contact Me

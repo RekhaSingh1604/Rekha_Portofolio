@@ -71,33 +71,33 @@ const Navbar = () => {
       >
         <ul className="flex flex-col items-center gap-6 text-gray-300 text-lg font-medium">
 
-          <li className="hover:text-purple-400 cursor-pointer transition">
+          <Link href="/" className="hover:text-purple-400 cursor-pointer transition">
             Home
-          </li>
+          </Link>
 
-          <li className="hover:text-purple-400 cursor-pointer transition">
+          <Link href="/About" className="hover:text-purple-400 cursor-pointer transition">
             About
-          </li>
+          </Link>
 
-          <li className="hover:text-purple-400 cursor-pointer transition">
+          <Link href="/Skills" className="hover:text-purple-400 cursor-pointer transition">
             Skills
-          </li>
+          </Link>
 
-          <li className="hover:text-purple-400 cursor-pointer transition">
+          <Link href="/ProjectSections" className="hover:text-purple-400 cursor-pointer transition">
             Projects
-          </li>
+          </Link>
 
-          <li className="hover:text-purple-400 cursor-pointer transition">
+          <Link href="/Resume" className="hover:text-purple-400 cursor-pointer transition">
             Resume
-          </li>
+          </Link>
 
-          <li className="hover:text-purple-400 cursor-pointer transition">
+          <Link href="/Contact" className="hover:text-purple-400 cursor-pointer transition">
             Contact
-          </li>
+          </Link>
 
-          <button className="bg-purple-600 hover:bg-purple-700 transition px-5 py-3 rounded-xl text-sm font-medium shadow-lg shadow-purple-500/30">
+          <Link href="/Contact" className="bg-purple-600 hover:bg-purple-700 transition px-5 py-3 rounded-xl text-sm font-medium shadow-lg shadow-purple-500/30">
             Let’s Talk
-          </button>
+          </Link>
 
         </ul>
       </div>

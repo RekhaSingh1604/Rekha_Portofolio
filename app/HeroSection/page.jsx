@@ -90,7 +90,7 @@ export default function PortfolioHero() {
               </button>
             </Link>
 
-            <Link href="/resume">
+            <Link href="/Resume">
               <button className="border border-purple-500/40 hover:bg-purple-500/10 transition px-8 py-4 rounded-2xl font-medium text-gray-200">
                 Download Resume
               </button>

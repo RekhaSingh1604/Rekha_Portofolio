@@ -4,9 +4,10 @@ import About from "./About/page";
 import ProjectSections from "./ProjectSections/page";
 // import ProjectsSections from "./ProjectSections/page";
 import Skills from "./Skills/page";
-import Resume from "./Resume/page";
+// import Resume from "./Resume/page";
 import Contact from "./Contact/page";
-
+import Footer from "./Footer/page";
+import Resume from "./Resume/page";
 export default function Home() {
   return (
     <main>
@@ -14,10 +15,10 @@ export default function Home() {
       <HeroSection />
       <About />
       <ProjectSections />
-      {/* <ProjectsSections /> */}
       <Skills/>
-      <Resume />
       <Contact />
+      <Resume/>
+      <Footer/>
     </main>
   );
 }

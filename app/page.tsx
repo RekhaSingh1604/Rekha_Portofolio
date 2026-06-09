@@ -6,7 +6,7 @@ import ProjectSections from "./ProjectSections/page";
 import Skills from "./Skills/page";
 // import Resume from "./Resume/page";
 import Contact from "./Contact/page";
-import Footer from "./Footer/page";
+// import Footer from "./Footer/page";
 import Resume from "./Resume/page";
 export default function Home() {
   return (
@@ -17,8 +17,8 @@ export default function Home() {
       <ProjectSections />
       <Skills/>
       <Contact />
-      <Resume/>
-      <Footer/>
+      {/* <Resume/> */}
+      {/* <Footer/> */}
     </main>
   );
 }

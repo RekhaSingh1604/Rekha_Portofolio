@@ -131,6 +131,48 @@ export default function Contact() {
         ></iframe>
       </div>
 
+
+      {/* OPEN TO OPPORTUNITIES */}
+<div className="mt-20 max-w-6xl mx-auto">
+  <div className="relative overflow-hidden rounded-[30px] border border-purple-500/20 bg-gradient-to-r from-[#240046] via-[#2b084f] to-[#4a0033] px-6 md:px-12 py-14 md:py-16 text-center">
+
+    {/* Glow */}
+    <div className="absolute inset-0 bg-purple-500/5"></div>
+
+    <h2 className="text-4xl md:text-5xl font-bold text-white mb-6 relative z-10">
+      Open To Opportunities 🚀
+    </h2>
+
+    <p className="max-w-3xl mx-auto text-gray-200 text-base md:text-lg leading-8 relative z-10">
+      Currently seeking opportunities as a Frontend Developer,
+      React.js Developer, MERN Stack Developer, or Full Stack Developer.
+      I am excited to contribute to innovative projects and grow
+      with a dynamic team.
+    </p>
+
+    <a
+      href="mailto:singhrekha5704@gmail.com"
+      className="
+        inline-flex items-center justify-center
+        mt-10
+        px-8 py-4
+        rounded-2xl
+        text-white
+        font-medium
+        bg-gradient-to-r
+        from-purple-600
+        to-fuchsia-600
+        hover:scale-105
+        transition-all duration-300
+        relative z-10
+      "
+    >
+      Contact Me
+    </a>
+
+  </div>
+</div>
+
     </section>
   );
 }

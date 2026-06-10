@@ -12,7 +12,7 @@ const projects = [
       "User-friendly Interface",
     ],
     live: "https://amarneerfuelstationfrontend.vercel.app/",
-    code: "#",
+    code: "https://github.com/AeronDigitalSolutions/amarneerfuelstationfrontend.git",
   },
   {
     title: "ZentFiest (MERN Project)",

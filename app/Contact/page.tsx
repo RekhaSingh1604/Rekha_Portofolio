@@ -58,7 +58,7 @@ export default function Contact() {
 
             <p className="flex items-center gap-3">
               <FaPhoneAlt className="text-blue-400" />
-              +91 595361153
+              +91 8595361153
             </p>
 
             <p className="flex items-center gap-3">

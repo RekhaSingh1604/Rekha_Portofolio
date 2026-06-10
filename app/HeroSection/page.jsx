@@ -83,7 +83,7 @@ export default function PortfolioHero() {
           </p>
 
           {/* Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 mb-10">
+          <div className="flex flex-row sm:flex-row gap-4 mb-10">
             <Link href="/ProjectSections">
               <button className="bg-gradient-to-r from-purple-600 to-indigo-600 hover:scale-105 transition px-8 py-4 rounded-2xl font-medium shadow-xl shadow-purple-500/30">
                 View Projects

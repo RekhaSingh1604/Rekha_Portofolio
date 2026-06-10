@@ -48,14 +48,24 @@ const Navbar = () => {
         </ul>
 
         {/* Desktop Button */}
-        <button className="hidden md:block bg-purple-600 hover:bg-purple-700 transition px-5 py-2 rounded-xl text-sm font-medium shadow-lg shadow-purple-500/30">
+        <button   href="/Contact"
+  className="hidden md:block bg-purple-600 hover:bg-purple-700 transition px-5 py-2 rounded-xl text-sm font-medium shadow-lg shadow-purple-500/30">
           Let’s Talk
         </button>
 
         {/* Hamburger Icon */}
         <button
           onClick={() => setMenuOpen(!menuOpen)}
-          className="md:hidden text-2xl text-white"
+  className="
+    md:hidden
+    w-10 h-10
+    flex items-center justify-center
+    rounded-lg
+    border border-white/10
+    bg-white/5
+    hover:border-purple-500
+    transition
+  "
         >
           {menuOpen ? <FaTimes /> : <FaBars />}
         </button>
@@ -63,27 +73,27 @@ const Navbar = () => {
 
       {/* Mobile Menu */}
       <div
-        className={`md:hidden absolute top-full left-0 w-full bg-[#0b0f1a] border-b border-white/10 transition-all duration-300 overflow-hidden ${
-          menuOpen
-            ? "max-h-[500px] py-6"
-            : "max-h-0"
-        }`}
+         className={`md:hidden absolute top-full left-0 w-full bg-[#0b0f1a]/95 backdrop-blur-xl border-b border-white/10 overflow-hidden transition-all duration-300 ${
+    menuOpen
+      ? "max-h-[400px] opacity-100 py-6"
+      : "max-h-0 opacity-0 py-0"
+  }`}
       >
-        <ul className="flex flex-col items-center gap-6 text-gray-300 text-lg font-medium">
+        <ul className="flex flex-col items-center gap-7 text-gray-300 text-lg font-medium">
 
-          <Link href="/" className="hover:text-purple-400 cursor-pointer transition">
+          <Link href="/" onClick={() => setMenuOpen(false)}  className="hover:text-purple-400 cursor-pointer transition">
             Home
           </Link>
 
-          <Link href="/About" className="hover:text-purple-400 cursor-pointer transition">
+          <Link href="/About"  onClick={() => setMenuOpen(false)} className="hover:text-purple-400 cursor-pointer transition">
             About
           </Link>
 
-          <Link href="/Skills" className="hover:text-purple-400 cursor-pointer transition">
+          <Link href="/Skills" onClick={() => setMenuOpen(false)} className="hover:text-purple-400 cursor-pointer transition">
             Skills
           </Link>
 
-          <Link href="/ProjectSections" className="hover:text-purple-400 cursor-pointer transition">
+          <Link href="/ProjectSections" onClick={() => setMenuOpen(false)} className="hover:text-purple-400 cursor-pointer transition">
             Projects
           </Link>
 
@@ -91,11 +101,11 @@ const Navbar = () => {
             Resume
           </Link> */}
 
-          <Link href="/Contact" className="hover:text-purple-400 cursor-pointer transition">
+          <Link href="/Contact" onClick={() => setMenuOpen(false)} className="hover:text-purple-400 cursor-pointer transition">
             Contact
           </Link>
 
-          <Link href="/Contact" className="bg-purple-600 hover:bg-purple-700 transition px-5 py-3 rounded-xl text-sm font-medium shadow-lg shadow-purple-500/30">
+          <Link href="/Contact" onClick={() => setMenuOpen(false)}className="bg-purple-600 hover:bg-purple-700 transition px-5 py-3 rounded-xl text-sm font-medium shadow-lg shadow-purple-500/30">
             Let’s Talk
           </Link>
 
